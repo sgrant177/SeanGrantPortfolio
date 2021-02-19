@@ -6,6 +6,7 @@
     height: fit-content;
     width: fit-content;
     margin-top: 1rem;
+    width: fit-content;
 }
 
 h3, h5 {
@@ -27,5 +28,4 @@ h3, h5 {
     margin-right: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    /* height: 40rem; */
 };
