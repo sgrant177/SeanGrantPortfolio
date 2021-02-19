@@ -1,0 +1,26 @@
+#topNav {
+    background-image: url("/src/assets/brandbackground.jpg");
+    background-size: cover;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 10px 10px 5px rgb(3,9,49);
+    opacity: 90%;
+    font-family: 'Yatra One', cursive;
+    text-shadow: 3px 3px 3px rgb(3,9,49);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#aboutMe, #projects, #contactInfo, #github, #linkedin, #resume, #email {
+    color:white;
+    text-shadow: 3px 3px 3px rgb(3,9,49);
+}
+
+.dropdown-menu {
+    background-color: rgb(3,9,49);
+}
+#project1, #project2, #project3, #project4{
+    color: white;
+    padding: 12px;
+    text-shadow: 3px 3px 3px rgb(3,9,49);
+}

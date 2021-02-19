@@ -1,0 +1,20 @@
+#footerNav {
+    background-image: url("/src/assets/brandbackground.jpg");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 10px 10px 5px rgb(3,9,49);
+    opacity: 90%;
+    font-family: 'Yatra One', cursive;
+    text-shadow: 3px 3px 3px rgb(3,9,49);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+a {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 2rem;
+}

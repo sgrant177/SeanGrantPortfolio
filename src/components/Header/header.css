@@ -1,0 +1,14 @@
+#jumbotron {
+    text-align: center;
+    background-image: url("/src/assets/background.gif");
+    background-size: 42rem;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgb(3,9,49);
+    font-family: 'Yatra One', cursive;
+    color: white;
+    height: fit-content;
+    text-shadow: 5px 5px 5px rgb(0,136,144);
+}
+#myName {
+    padding: 10rem;
+}

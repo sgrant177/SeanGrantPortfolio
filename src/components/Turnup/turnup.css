@@ -1,0 +1,33 @@
+#turnupCard {
+    background-image: url("/src/assets/brandbackground.jpg");
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgb(3,9,49);
+    border-radius: 15px;
+    height: fit-content;
+    width: fit-content;
+    
+}
+
+h3, h5 {
+    text-align: center;
+}
+
+#githubButton, #deployedButton {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(0,136,144);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(3,9,49);
+    color: white;
+}
+#turnupImage {
+    border-radius: 15px;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* height: 40rem; */
+};
+
+
+

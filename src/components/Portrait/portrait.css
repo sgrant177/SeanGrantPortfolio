@@ -1,0 +1,7 @@
+#portrait {
+background-image: url("/src/assets/portrait.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 15px;
+box-shadow: 10px 10px 5px rgb(3,9,49);
+}

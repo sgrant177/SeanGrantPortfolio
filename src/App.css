@@ -1,0 +1,30 @@
+html, #body {
+    background-color: rgb(0,136,144);
+}
+
+#headerDiv {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#myInfo {
+    background-image: url("/src/assets/brandbackground.jpg");
+    background-size: cover;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgb(3,9,49);
+    height: fit-content;
+}
+#projects {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+
