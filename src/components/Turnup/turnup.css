@@ -20,13 +20,13 @@ h3, h5 {
     border-radius: 10px;
     box-shadow: 10px 10px 5px rgb(3,9,49);
     color: white;
+    font-family: 'Oswald', sans-serif;
 }
 #turnupImage {
     border-radius: 15px;
     margin-right: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    /* height: 40rem; */
 };
 
 

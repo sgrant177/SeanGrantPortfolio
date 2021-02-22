@@ -8,7 +8,23 @@
     color: white;
     height: fit-content;
     text-shadow: 5px 5px 5px rgb(0,136,144);
+    font-size: xx-large;
 }
-#myName {
+#myNameContainer {
     padding: 10rem;
+}
+
+#myName {
+    font-size: 3.5;
+}
+#webDeveloper {
+    font-size: xx-large;
+}
+
+h3 {
+    font-family: 'Yatra One', cursive;
+    color: white;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px rgb(10,2,91);
 }

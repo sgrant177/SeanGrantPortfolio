@@ -3,7 +3,7 @@ import './brandstatement.css'
 
 const Brandstatement = (props) => {
   return (
-    <div id="brandStatement" className="container">
+    <div className="container">
       <div className="row">
         <div className="col-12">
           <h3>About Me</h3>

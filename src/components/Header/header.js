@@ -6,9 +6,9 @@ const Header = (props) => {
   return (
     <div>
       <Jumbotron id="jumbotron" fluid>
-        <Container id="myName"  fluid>
-          <h1 className="display-3">Sean Valentino Grant</h1>
-          <p className="lead">Web Developer</p>
+        <Container id="myNameContainer" fluid>
+          <h1 id="myName" className="display-3">Sean Valentino Grant</h1>
+          <p id ="webDeveloper" className="lead">Web Developer</p>
         </Container>
       </Jumbotron>
     </div>
