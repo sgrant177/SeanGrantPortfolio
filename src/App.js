@@ -34,18 +34,18 @@ function App() {
       </div>
       <div id="projects">
         <div className="row">
-          <div id="turnup" className="col-md-6">
+          <div id="turnup" className="col-lg-6 col-md-12">
             <Turnup />
           </div>
-          <div id="googlebooks" className="col-md-6">
+          <div id="googlebooks" className="col-lg-6 col-md-12">
             <Googlebooks/>
           </div>
         </div>
         <div className="row">
-          <div id="fitnesstracker" className="col-md-6">
+          <div id="fitnesstracker" className="col-lg-6 col-md-12">
             <Fitnesstracker/>
           </div>
-          <div id="budgettracker" className="col-md-6">
+          <div id="budgettracker" className="col-lg-6 col-md-12">
             <Budgettracker/>
           </div>
         </div>

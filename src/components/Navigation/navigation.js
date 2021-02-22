@@ -25,43 +25,27 @@ const Navigation = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink id="aboutMe" href="">About Me</NavLink>
+              <NavLink id="aboutMe" href="#myInfo">About Me</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle id="projects" nav caret>
-                Projects
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem id="project1"> 
-                  Project 1
-                </DropdownItem>
-                <DropdownItem id="project2">
-                  Project 2
-                </DropdownItem>
-                <DropdownItem id="project3">
-                  Project 3
-                </DropdownItem>
-                <DropdownItem id="project4">
-                  Project 4
-                </DropdownItem>                
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink id="aboutMe" href="#projects">Projects</NavLink>
+            </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle id="contactInfo" nav caret>
                 Contact Info
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                 <NavLink id="github" href="">Github</NavLink>
+                 <NavLink id="github" href="https://github.com/sgrant177" target="_blank">Github</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink id="linkedin" href="">LinkedIn</NavLink>
+                  <NavLink id="linkedin" href="https://www.linkedin.com/in/sean-grant-1706a01b9/" target="_blank">LinkedIn</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                 <NavLink id="resume" href="">Resume</NavLink>
+                 <NavLink id="resume" href="https://onedrive.live.com/view.aspx?resid=3A884DC9DEECA460!29357&ithint=file%2cdocx&authkey=!ADKsRndxF-PA_xc" target="_blank">Resume</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                 <NavLink id="email" href="">Email</NavLink>
+                 <NavLink id="email">Email: sgrant177@yahoo.com</NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>

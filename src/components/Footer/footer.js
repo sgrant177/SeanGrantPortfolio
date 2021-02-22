@@ -13,16 +13,16 @@ const Footer = (props) => {
             <Navbar id="footerNav">
                 <Nav >
                     <NavItem>
-                        <NavLink id="aboutMe" href="">Github</NavLink>
+                        <NavLink href="https://github.com/sgrant177" target="_blank">Github</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink id="aboutMe" href="">LinkedIn</NavLink>
+                        <NavLink href="https://www.linkedin.com/in/sean-grant-1706a01b9/" target="_blank">LinkedIn</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink id="aboutMe" href="">Resume</NavLink>
+                        <NavLink href="https://onedrive.live.com/view.aspx?resid=3A884DC9DEECA460!29357&ithint=file%2cdocx&authkey=!ADKsRndxF-PA_xc" target="_blank">Resume</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink id="aboutMe" href="">Email</NavLink>
+                        <NavLink>Email: sgrant177@yahoo.com</NavLink>
                     </NavItem>
                 </Nav>          
             </Navbar>
