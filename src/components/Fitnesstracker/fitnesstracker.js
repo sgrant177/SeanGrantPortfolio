@@ -1,11 +1,11 @@
 import React from 'react';
 import {
   Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button, CardLink
+  CardTitle, CardLink
 } from 'reactstrap';
 import './fitnesstracker.css'
 import fitnesstrackerone from '../../assets/fitnesstracker2.jpg'
-import turnuptwo from '../../assets/turnup2.jpg'
+
 
 const Fitnesstracker = (props) => {
   return (
@@ -17,7 +17,7 @@ const Fitnesstracker = (props) => {
           <CardTitle id="fitnessSummary" tag="h3">Summary</CardTitle>
           <CardText>Track your workouts with Fitness Tracker. The app will keep track of every exercise in your workout. The app dashboard will display weekly summary graphs of all workouts done in a week. </CardText>
           <CardTitle id="fitnessTech" tag="h3">Technologies</CardTitle>
-          <CardText>Fitness Tracker is built with html, css, javascript, bootstrap, node, eppress, and mongo. </CardText>
+          <CardText>Fitness Tracker was built using HTML, CSS, JavaScript, Bootstrap, Node JS, Express JS, MongoDB, and Mongoose. </CardText>
           <div className="row">
             <div className="col-6">
               <div>

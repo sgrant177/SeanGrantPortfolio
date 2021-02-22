@@ -1,5 +1,5 @@
 import "./footer.css"
-import React, { useState } from 'react';
+import React from 'react';
 import {
     Navbar,
     Nav,
@@ -21,9 +21,7 @@ const Footer = (props) => {
                     <NavItem>
                         <NavLink href="https://onedrive.live.com/view.aspx?resid=3A884DC9DEECA460!29357&ithint=file%2cdocx&authkey=!ADKsRndxF-PA_xc" target="_blank">Resume</NavLink>
                     </NavItem>
-                    <NavItem>
-                        <NavLink>Email: sgrant177@yahoo.com</NavLink>
-                    </NavItem>
+                    
                 </Nav>          
             </Navbar>
         </div>

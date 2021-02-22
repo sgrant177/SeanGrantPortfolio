@@ -1,11 +1,11 @@
 import React from 'react';
 import {
   Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button, CardLink
+  CardTitle, CardLink
 } from 'reactstrap';
 import './budgettracker.css'
 import budgettrackerone from '../../assets/budgettracker1.jpg'
-import turnuptwo from '../../assets/turnup2.jpg'
+
 
 const Budgettracker = (props) => {
   return (
@@ -17,7 +17,7 @@ const Budgettracker = (props) => {
           <CardTitle id="budgetSummary" tag="h3">Summary</CardTitle>
           <CardText>The Budget Tracker is a progressive web application that will allow the user to track their budget by adding expenses and deposits to their budget. They are able to add or subtrac with or without internet connection. If they are using it offline, the transactions are stored in the indexedDB and then transferrd to the databse when the user is back online. </CardText>
           <CardTitle id="budgetTech" tag="h3">Technologies</CardTitle>
-          <CardText> Budget Tracker was built with HTML, CSS, Bootstrap, JavaScript, Node.js, Express, MongoDB, and Mongoose </CardText>
+          <CardText> Budget Tracker was built with HTML, CSS, Bootstrap, JavaScript, Node JS, Express JS, MongoDB, and Mongoose. </CardText>
           <div className="row">
             <div className="col-6">
               <div>

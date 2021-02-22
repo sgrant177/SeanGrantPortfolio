@@ -1,17 +1,4 @@
 #brandStatement {
-margin-left: 3rem;
 color: white;
-font-size: larger;
-}
-
-#brandCard {
-    height: fit-content;
-    padding-top: 3rem;
-    border-radius: 15px;
-    box-shadow: 10px 10px 5px rgb(3,9,49);
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    margin-left: 3rem;
-    background-image: url("/src/assets/brandbackground.jpg");
-    background-size: cover;
+font-size: xx-large;
 }

@@ -1,14 +1,13 @@
 import './portrait.css'
 import React from 'react';
-import {
-  Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button
-} from 'reactstrap';
-
+import { Card } from 'reactstrap';
+import portrait from '../../assets/portrait.jpg'
 const Portrait = (props) => {
   return (
     <div>
-      <Card/>
+      <Card>
+        <img id="myPortrait" alt="..." src={portrait}></img>
+      </Card>
     </div>
   );
 };

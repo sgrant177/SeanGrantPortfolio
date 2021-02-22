@@ -11,10 +11,6 @@ import Fitnesstracker from "./components/Fitnesstracker/fitnesstracker.js";
 import Budgettracker from "./components/Budgettracker/budgettracker.js";
 import Footer from "./components/Footer/footer.js";
 
-
-
-
-
 function App() {
   return (
     <div id="body">
@@ -28,7 +24,7 @@ function App() {
         <div id="portrait" className="col-4">
           <Portrait />
         </div>
-        <div id="brandStatement" className="col-7">
+        <div id="brandStatement" className="col-8">
           <Brandstatement />
         </div>
       </div>
