@@ -4,12 +4,6 @@ color: white;
 font-size: larger;
 }
 
-h3 {
-    text-shadow: 5px 5px 5px rgb(0,136,144);
-    font-family: 'Yatra One', cursive;
-    font-size: 2rem;
-    text-decoration: underline;
-}
 #brandCard {
     height: fit-content;
     padding-top: 3rem;

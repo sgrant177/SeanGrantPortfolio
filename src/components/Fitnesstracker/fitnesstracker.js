@@ -15,14 +15,14 @@ const Fitnesstracker = (props) => {
         <CardImg top src={fitnesstrackerone} alt="Card image cap" id="fitnessImage" />
         <CardBody>
           <CardTitle id="fitnessSummary" tag="h3">Summary</CardTitle>
-          <CardText>TurnUp is a social hub that allows pop-up shop owners and customers alike to be able to signup and host their pop-ups, allow users to view the different pop-ups being hosted, and keep track of the number of people that plan to attend your event. </CardText>
+          <CardText>Track your workouts with Fitness Tracker. The app will keep track of every exercise in your workout. The app dashboard will display weekly summary graphs of all workouts done in a week. </CardText>
           <CardTitle id="fitnessTech" tag="h3">Technologies</CardTitle>
-          <CardText>Turnup was build using React.js for the client-side, Node.js and Express.js for server-side and backend, and MongoDB as the database layer. </CardText>
+          <CardText>Fitness Tracker is built with html, css, javascript, bootstrap, node, eppress, and mongo. </CardText>
           <div className="row">
             <div className="col-6">
               <div>
                 <CardTitle id="fitnessbuttonOne" tag="h5">Check out the Repo!</CardTitle>
-                <CardLink id="fitnessGithubButton">Github</CardLink>
+                <CardLink id="fitnessGithubButton" href="https://github.com/sgrant177/FitnessTracker" target="_blank">Github</CardLink>
               </div>
             </div>
             <div className="col-6">

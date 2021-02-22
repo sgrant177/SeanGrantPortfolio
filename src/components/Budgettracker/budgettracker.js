@@ -15,14 +15,14 @@ const Budgettracker = (props) => {
         <CardImg top src={budgettrackerone} alt="Card image cap" id="budgetImage" />
         <CardBody>
           <CardTitle id="budgetSummary" tag="h3">Summary</CardTitle>
-          <CardText>TurnUp is a social hub that allows pop-up shop owners and customers alike to be able to signup and host their pop-ups, allow users to view the different pop-ups being hosted, and keep track of the number of people that plan to attend your event. </CardText>
+          <CardText>The Budget Tracker is a progressive web application that will allow the user to track their budget by adding expenses and deposits to their budget. They are able to add or subtrac with or without internet connection. If they are using it offline, the transactions are stored in the indexedDB and then transferrd to the databse when the user is back online. </CardText>
           <CardTitle id="budgetTech" tag="h3">Technologies</CardTitle>
-          <CardText>Turnup was build using React.js for the client-side, Node.js and Express.js for server-side and backend, and MongoDB as the database layer. </CardText>
+          <CardText> Budget Tracker was built with HTML, CSS, Bootstrap, JavaScript, Node.js, Express, MongoDB, and Mongoose </CardText>
           <div className="row">
             <div className="col-6">
               <div>
                 <CardTitle id="budgetbuttonOne" tag="h5">Check out the Repo!</CardTitle>
-                <CardLink id="budgetGithubButton">Github</CardLink>
+                <CardLink id="budgetGithubButton" href="https://github.com/sgrant177/BudgetTracker" target="_blank">Github</CardLink>
               </div>
             </div>
             <div className="col-6">
