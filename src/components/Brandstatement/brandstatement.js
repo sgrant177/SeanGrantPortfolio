@@ -7,7 +7,7 @@ const Brandstatement = (props) => {
       <div className="row">
         <div className="col-12">
           <h3>About Me</h3>
-          <p>Full Stack Web Developer with a work history in manufacturing and supervising. Hardworking, analytical problem-solver with conscientious approach to tackling operations issues. Decisive leader and collaborative team-builder with solid time management and multitasking abilities.</p>
+          <p>Full Stack Web Developer with a work history in supervising and manufacturing. Hardworking, analytical problem-solver with conscientious approach to tackling operations issues. Decisive leader and collaborative team-builder with solid time management and multitasking abilities.</p>
         </div>
         <div />
         <div className="row">
