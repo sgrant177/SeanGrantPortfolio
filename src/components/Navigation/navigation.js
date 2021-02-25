@@ -42,7 +42,7 @@ const Navigation = (props) => {
                   <NavLink id="linkedin" href="https://www.linkedin.com/in/sean-grant-1706a01b9/" target="_blank">LinkedIn</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                 <NavLink id="resume" href="https://onedrive.live.com/view.aspx?resid=3A884DC9DEECA460!29357&ithint=file%2cdocx&authkey=!ADKsRndxF-PA_xc" target="_blank">Resume</NavLink>
+                 <NavLink id="resume" href="https://drive.google.com/file/d/1CM1ydiBarm4d0mqx-ia95niLmR9_-dSa/view?usp=sharing" target="_blank">Resume</NavLink>
                 </DropdownItem>
                 <DropdownItem>
                  <NavLink id="email">Email: sgrant177@yahoo.com</NavLink>
