@@ -3,7 +3,7 @@
 ## Description
 A portfolio of contact information, background infromation, and projects created with React.
 
-<img src="portfoloPic.jpg">
+<img src="portfolioPic.jpg">
 
 Visit the deployed aplication here! https://seangrantportfolio.herokuapp.com/
 
