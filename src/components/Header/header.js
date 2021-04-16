@@ -2,7 +2,7 @@ import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 import "./header.css"
 
-const Header = (props) => {
+function Header() {
   return (
     <div>
       <Jumbotron id="jumbotron" fluid>

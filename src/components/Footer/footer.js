@@ -7,7 +7,7 @@ import {
     NavLink
 } from 'reactstrap';
 
-const Footer = (props) => {
+function Footer() {
     return (
         <div>
             <Navbar id="footerNav">

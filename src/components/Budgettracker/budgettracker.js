@@ -7,7 +7,7 @@ import './budgettracker.css'
 import budgettrackerone from '../../assets/budgettracker1.jpg'
 
 
-const Budgettracker = (props) => {
+function Budgettracker() {
   return (
     <div>
       <Card id="budgetCard">

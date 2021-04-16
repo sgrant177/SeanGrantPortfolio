@@ -7,7 +7,7 @@ import './fitnesstracker.css'
 import fitnesstrackerone from '../../assets/fitnesstracker2.jpg'
 
 
-const Fitnesstracker = (props) => {
+function Fitnesstracker() {
   return (
     <div>
       <Card id="fitnessCard">

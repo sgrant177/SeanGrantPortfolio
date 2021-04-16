@@ -2,7 +2,7 @@ import './portrait.css'
 import React from 'react';
 import { Card } from 'reactstrap';
 import portrait from '../../assets/portrait.jpg'
-const Portrait = (props) => {
+function Portrait() {
   return (
     <div>
       <Card>

@@ -7,7 +7,7 @@ import './turnup.css'
 import turnupone from '../../assets/turnup1.jpg'
 
 
-const Turnup = (props) => {
+function Turnup() {
   return (
     <div>
       <Card id="turnupCard">

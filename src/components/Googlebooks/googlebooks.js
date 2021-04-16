@@ -7,7 +7,7 @@ import './googlebooks.css'
 import googlebooksone from '../../assets/googlebooks1.jpg'
 
 
-const Googlebooks = (props) => {
+function Googlebooks() {
   return (
     <div>
       <Card id="googlebooksCard">
